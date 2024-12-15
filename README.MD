@@ -1,4 +1,4 @@
-# Documentation: Setting Up Node.js App with Docker and CI/CD Pipeline
+#Setting Up Node.js App with Docker and CI/CD Pipeline
 
 ### 1. Node.js Project Setup
 Initialize a new Node.js project:
@@ -140,7 +140,4 @@ Create a .github/workflows/ci-cd-pipeline.yml file:
 
 
 ```
-
-### Secrets Configuration in GitHub
-Add DockerHub credentials (DOCKER_USERNAME, DOCKER_PASSWORD) and staging server credentials (STAGING_SERVER_HOST, STAGING_SERVER_USER, STAGING_SERVER_PASSWORD) as secrets in your GitHub repository settings.
 
